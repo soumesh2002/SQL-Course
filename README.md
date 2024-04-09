@@ -13,7 +13,8 @@
 
 - __Microsoft SQL Server__
     - It is a proprietary relational database management system (__RDBMS__) developed by __Microsoft__.
-    - It allows applications and tools to connect __SQL Server__ instance or database, and communicate using __T-SQL__.
+    - It allows applications and tools to connect __SQL Server__ instance or database, and
+     communicate using __T-SQL__.
     - It also provides a range of products and services:
         - SQL Server on Azure
         - SQL Server at the edge
@@ -21,4 +22,4 @@
         - Developer SQL Server 2022
         - Express SQL Server 2022
 
-## Setup Instructions for MySQL
+## Setting up MySQL
