@@ -13,5 +13,4 @@
 - __Installing SQL Server__
   - [Download SQL Server 2022 Developer Edition](https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x4009&culture=en-in&country=in)
   
-  ![SQL Server Developer](image.png)
-  
+  ![SQL Server Developer](./SQL%20Server.png)
