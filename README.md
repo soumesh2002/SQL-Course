@@ -14,3 +14,5 @@
   - [Download SQL Server 2022 Developer Edition](https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x4009&culture=en-in&country=in)
   
   ![SQL Server Developer](./SQL%20Server.png)
+
+- __Setting up Visual Studio Code to work with SQL Server ![vscode](vscode.png)__
