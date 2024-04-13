@@ -30,6 +30,7 @@
 
     ![mssql_extension](mssql_extension.png)
     ![new_connection](new_connection.png)
+    Paste the connection string you've copied post installation of SQL Server
     ![paste_connection_string](./paste_connection_string.png)
 
 🚀 You've succesfully setup SQL Server and Visual Studio Code. Happy Analysis 📈
