@@ -83,3 +83,37 @@ SELECT occupation, COUNT(occupation) as occup_count
 FROM dbo.[in-vehicle-coupon-recommendation]
 GROUP BY occupation
 HAVING occupation = 'Student';
+
+-- creating a new table to perform union operation
+SELECT *
+INTO union_table
+FROM dbo.[in-vehicle-coupon-recommendation];
+
+
+-- Q13
+-- union
+SELECT DISTINCT destination
+FROM dbo.[in-vehicle-coupon-recommendation]
+UNION
+SELECT DISTINCT destination
+FROM dbo.[union_table];
+
+-- Q14
+SELECT destination, passanger
+FROM dbo.[in-vehicle-coupon-recommendation]
+WHERE passanger = 'Alone';
+
+-- Q15
+SELECT *
+FROM dbo.[in-vehicle-coupon-recommendation]
+WHERE weather LIKE 'Sun%';
+
+-- Q16
+SELECT DISTINCT temperature
+FROM dbo.[in-vehicle-coupon-recommendation]
+WHERE temperature BETWEEN 29 AND 75;
+
+-- Q17
+SELECT occupation
+from dbo.[in-vehicle-coupon-recommendation]
+WHERE occupation IN ('Sales & Related', 'Management');
