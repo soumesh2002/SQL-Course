@@ -1,4 +1,4 @@
-# Setup Instructions for Microsoft SQL Server  
+# Setup Instructions for Microsoft SQL Server
 
 - __Microsoft SQL Server__
   - It is a proprietary relational database management system (__RDBMS__) developed by __Microsoft__.
@@ -15,4 +15,21 @@
   
   ![SQL Server Developer](./SQL%20Server.png)
 
-- __Setting up Visual Studio Code to work with SQL Server ![vscode](vscode.png)__
+  After downloading the setup file
+  - Choose __Basic__ installation
+
+    ![basic_installation](./installation_type.png)
+
+    👉 Make sure to save the connection string for future
+
+    ![save_connection_string](connection_string.png)
+
+- __Setting up Visual Studio Code to work with SQL Server__
+
+  - Download the __mssql__ extension
+
+    ![mssql_extension](mssql_extension.png)
+    ![new_connection](new_connection.png)
+    ![paste_connection_string](./paste_connection_string.png)
+
+🚀 You've succesfully setup SQL Server and Visual Studio Code. Happy Analysis 📈
